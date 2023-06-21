@@ -20,7 +20,7 @@ export const Navbar =() =>{
             <div className='link-container'>
                 <ul className='links'>
                     <li><a href="#signup">Sign Up</a></li>
-                    <li><button className='sign-in-button'>Sign In</button></li>
+                    <li><a className='sign-in-button' href='#signin'>Sign In</a></li>
                 </ul>
             </div> 
         </nav>
