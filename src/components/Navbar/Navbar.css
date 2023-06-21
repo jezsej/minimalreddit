@@ -1,0 +1,89 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49px;
+    border-bottom: 1px solid #d7dadc;
+    padding: 5px 5px;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    margin-left: 41px;
+    margin-top: 5px;
+}
+
+.brand-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 14px;
+}
+
+#brand-color {
+    color: #FF4600;
+    font-weight: bold;
+}
+
+#reddit-logo {
+    width: 40px;
+    height: 40px;
+}
+
+#searchbar {
+    width: 594px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #d7dadc;
+    box-shadow: 0px 0px 10px 0px rgba(255, 70, 0, 1);
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+
+#searchbar:focus {
+    outline: #FF4600;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 43px;
+}
+
+.link-container>ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-container>ul>li:not(:last-child) {
+    margin-right: 111px;
+    margin-left: 145px;
+}
+
+.link-container>ul>li:not(:last-child) a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link-container>ul>li:not(:last-child) a:hover {
+    text-decoration: none;
+    color: #FF4600;
+}
+
+.link-container>ul>li:last-child button {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 109px;
+    height: 39px;
+    color: #ffffff;
+    background-color: #FF4600;
+    border: 0;
+    font-weight: bold;
+}
+
+.link-container>ul>li:last-child button:hover {
+    cursor: pointer;
+}
